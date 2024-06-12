@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Fremantle Library">
+    <meta name="keywords" content="Library, Freo, Fremantle Library, Library Western Australia">
+    <meta name="author" content="Dennis Stanisic">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Home Page - Fremantle Library</title>
+
+    <link rel="stylesheet" href="home-styles.css">
+    <link rel="stylesheet" href="header-styles.css">
+    <link rel="stylesheet" href="footer-styles.css">
+</head>
+
+<body>
+    <!--THIS IS THE HEADER AND NAVIGATION BAR -->
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./Images/book-logo.png.png" alt="Library Logo Header">
+            </div>
+            <nav>
+                <a href="./HomePage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./BooksCollection.html">Collection</a>
+                <a href="./contactus.html">Contact Us</a>
+                <a href="./login.html">Log In</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+            <nav class="mobile-menu">
+                <a href="./HomePage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./BooksCollection.html">Collection</a>
+                <a href="./contactus.html">Contact Us</a>
+                <a href="./login.html">Log In</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+            <div class="burger-menu" onclick="menuShow()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="book-reviews">
+            <div class="book">
+                <a href="#"><img src="./Images/the-great-gatsby.png" alt="Book 1"></a>
+                <h1>The Great Gatsby</h1>
+                <p>Author: F. Scott Fitzgerald</p>
+                <p>Publisher: Charles Scribner's Sons</p>
+                <p class="review">"An amazing story! Highly recommended."</p>
+            </div>
+            <div class="book">
+                <img src="./Images/the-hobbit.png" alt="Book 2">
+                <h1>The Hobbit</h1>
+                <p>Author: J. R. R. Tolkien</p>
+                <p>Publisher: George Allen & Unwin</p>
+                <p class="review">"A thrilling adventure from start to finish."</p>
+            </div>
+            <div class="book">
+                <img src="./Images/nineteen-eighty-four.png" alt="Book 3">
+                <h1>1984</h1>
+                <p>Author: George Orwell</p>
+                <p>Publisher: Secker & Warburg</p>
+                <p class="review">Mind-blowing!"</p>
+            </div>
+        </section>
+    </main>
+
+    <!-- this is the footer -->
+
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-address">
+                <h3>Address</h3>
+                <p>150 High Street<br>
+                    Fremantle, WA 6160<br>
+                    (08) 9432 9766<br>
+                    info@freolibrary.com.au</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 8am - 8pm<br>
+                    Saturday: 9am - 7pm<br>
+                    Sunday: 9am - 8pm</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="./Images/./Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./Images/Instagram Circle.png" alt="Instagram"></a>
+                <a href="#"><img src="./Images/LinkedIn Circled.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="">
+            <p>Developed by Dennis Stanisic - All rights reserved </p>
+        </div>
+    </footer>
+    <script src="burger-menu.js"></script>
+</body>
+
+</html>

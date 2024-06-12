@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Fremantle Library </title>
+    <link rel="stylesheet" href="contactus-styles.css">
+    <link rel="stylesheet" href="header-styles.css">
+    <link rel="stylesheet" href="footer-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./Images/book-logo.png.png" alt="Library Logo Header">               
+            </div>
+            <nav>
+                <a href="./HomePage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./BooksCollection.html">Collection</a>
+                <a href="./contactus.html">Contact Us</a>
+                <a href="./login.html">Log In</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+            <nav class="mobile-menu">
+                <a href="./HomePage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./BooksCollection.html">Collection</a>
+                <a href="./contactus.html">Contact Us</a>
+                <a href="./login.html">Log In</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+            <div class="burger-menu" onclick="menuShow()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    <div class="container-content-form">
+        <div class="contact-container">
+            <h2>GET IN TOUCH!</h2>
+            <form action="contact" method="post">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required>
+    
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" required>
+    
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+    
+                <button type="submit">Send </button>
+            </form>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-address">
+                <h3>Address</h3>
+                <p>150 High Street<br>
+                Fremantle, WA 6160<br>
+                (08) 9432 9766<br>
+                info@freolibrary.com.au</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 8am - 8pm<br>
+                Saturday: 9am - 7pm<br>
+                Sunday: 9am - 8pm</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="./Images/./Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./Images/Instagram Circle.png" alt="Instagram"></a>
+                <a href="#"><img src="./Images/LinkedIn Circled.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="">
+            <p>Developed by Dennis Stanisic - All Rights Reserved </p>
+        </div>
+    </footer> 
+    <script src="burger-menu.js"></script>
+</body>
+</html>

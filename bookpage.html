@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Page - The Hobbit</title>
+    <link rel="stylesheet" href="bookpage-styles.css">
+    <link rel="stylesheet" href="./footer-styles.css">
+    <link rel="stylesheet" href="./header-styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <img src="./Images/book-logo.png.png" alt="Library Logo Header">               
+            </div>
+            <nav>
+                <a href="./HomePage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./BooksCollection.html">Collection</a>
+                <a href="./contactus.html">Contact Us</a>
+                <a href="./login.html">Log In</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+            <nav class="mobile-menu">
+                <a href="./HomePage.html">Home</a>
+                <a href="./aboutus.html">About Us</a>
+                <a href="./BooksCollection.html">Collection</a>
+                <a href="./contactus.html">Contact Us</a>
+                <a href="./login.html">Log In</a>
+                <input type="text" placeholder="Search...">
+            </nav>
+            <div class="burger-menu" onclick="menuShow()">
+                <div class="line"></div>
+                <div class="line"></div>
+                <div class="line"></div>
+            </div>
+        </div>
+    </header>
+    <div class="container-page">
+        <div class="book-page">
+            <img src="./Images/the-hobbit.png" alt="The Hobbit Cover" class="book-cover">
+            <div class="book-info">
+                <h1 class="book-title">The Hobbit</h1>
+                <h2 class="book-author">by J.R.R. Tolkien</h2>
+                <p class="book-details"><strong>Year:</strong> 1937</p>
+                <p class="book-details"><strong>Publisher:</strong> George Allen & Unwin</p>
+            </div>
+            <div class="book-description">
+                <h3>Description</h3>
+                <p>
+                    Bilbo Baggins is a hobbit who enjoys a comfortable, unambitious life, rarely traveling further than 
+                    the pantry of his hobbit-hole in Bag End. But his contentment is disturbed when the wizard Gandalf and 
+                    a company of dwarves arrive on his doorstep one day to whisk him away on an adventure. They have 
+                    launched a plot to raid the treasure hoard guarded by Smaug the Magnificent, a large and very dangerous dragon...
+                </p>
+                <div class="back-to-list">
+                    <a href="BooksCollection.html">Back to List</a>
+                </div>
+            </div>
+        </div>
+        <div class="review-section">
+            <h3>Reviews</h3>
+            <p>
+                "Tolkien's 'The Hobbit' is a masterpiece of fantasy literature. It beautifully blends adventure, humor, and a touch of magic. 
+                The characters are unforgettable, and the world-building is so immersive that you'll feel like you've journeyed alongside Bilbo 
+                Baggins every step of the way. Highly recommended for readers of all ages!" - <strong>Dennis Stanisic</strong> 
+            </p>   
+        </div>
+        <div class="review-section">
+            <p>
+                "Reading 'The Hobbit' was an enchanting experience. Tolkien's ability to create vivid imagery and unique characters 
+                is truly remarkable. This book is a treasure trove of imagination and inspiration. Highly recommended for anyone 
+                who loves a good fantasy tale!" - <strong>Bill Gates</strong> 
+            </p>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-address">
+                <h3>Address</h3>
+                <p>150 High Street<br>
+                Fremantle, WA 6160<br>
+                (08) 9432 9766<br>
+                info@freolibrary.com.au</p>
+            </div>
+            <div class="footer-hours">
+                <h3>Opening Hours</h3>
+                <p>Mon - Fri: 8am - 8pm<br>
+                Saturday: 9am - 7pm<br>
+                Sunday: 9am - 8pm</p>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="./Images/./Facebook.png" alt="Facebook"></a>
+                <a href="#"><img src="./Images/Instagram Circle.png" alt="Instagram"></a>
+                <a href="#"><img src="./Images/LinkedIn Circled.png" alt="LinkedIn"></a>
+            </div>
+        </div>
+        <div class="">
+            <p>Developed by Dennis Stanisic - All rights reserved </p>
+        </div>
+    </footer> 
+    <script src="burger-menu.js"></script>
+</body>
+</html>
